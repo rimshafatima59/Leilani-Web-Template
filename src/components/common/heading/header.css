@@ -70,8 +70,8 @@ header ul li a:hover {
 
     .toggle {
         display: block;
-        background-color: none;
-        
+        background-color: #1eb2a6;
+        color: #fff;
         font-size: 30px;
         position: absolute;
         right: 30px;
