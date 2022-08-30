@@ -9,7 +9,7 @@ export const Header = () => {
     <>
         <Head />
         <header>
-            <nav className='flexSB'>
+            <nav className="flexSB">
                 <ul className={click ? "mobile-nav" : "flexSB"} onClick = {() => setClick(false)}>
                     <li>
                         <Link to = "/">Home</Link>
@@ -36,8 +36,8 @@ export const Header = () => {
                 <div className="start">
                     <div className="button">GET CERTIFICATE</div>
                 </div>
-                <button className='toggle' onClick = {() => setClick(!click)}>
-                    {click ? <i className='fa fa-times'></i>: <i className='fa fa-bars'></i>}
+                <button className="toggle" onClick = {() => setClick(!click)}>
+                    {click ? <i className="fa fa-times"></i>: <i className="fa fa-bars"></i>}
                 </button>
             </nav>
         </header>

@@ -17,6 +17,7 @@
 header {
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 30px;
+    position: relative;
 }
 
 header ul {
@@ -48,7 +49,6 @@ header ul li a:hover {
     display: none;
 }
 
-/* This Query is not working */
 @media screen and (max-width: 768px) {
     .start {
         clip-path: none;
@@ -64,14 +64,26 @@ header ul li a:hover {
         display: none;
     }
 
+    header ul li {
+        margin-bottom: 20px;
+    }
+
     .toggle {
         display: block;
         background-color: none;
-        color: #fff;
+        
         font-size: 30px;
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 30px;
+        top: -20px;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 7uh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
     }
     
 }
