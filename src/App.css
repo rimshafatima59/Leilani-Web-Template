@@ -129,5 +129,15 @@ p {
 }
 
 .marigin {
-  margin-top: 40.3%;
+  margin-top: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.flex {
+  display: flex;
 }

@@ -1,5 +1,8 @@
 import React from 'react'
+import { homeAbout } from '../../dummydata'
 import Title from '../common/title/Title'
+import AWrapper from './AWrapper'
+import './about.css'
 
 const AboutCard = () => {
   return (
@@ -12,13 +15,22 @@ const AboutCard = () => {
 
           <div className="right row">
             <Title subtitle="LEARN ANYTHING" title="Benefits About Online Learning Expertise" />
-            <div className="homeAbout">
-
-            </div>
+            <div className="items">{homeAbout.map((val) => (
+              <div className="item flexSB">
+                <div className="img">
+                  <img src={val.cover} alt = ""/>
+                </div>
+                <div className="text">
+                  <h2>{val.title}</h2>
+                  <h2>{val.desc}</h2>
+                </div>
+              </div>
+            ))}</div>
           </div>
         </div>
 
       </section>
+      <AWrapper />
     </>
   )
 }
