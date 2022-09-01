@@ -32,12 +32,14 @@
     .hero {
         background-position: right;
         padding-top: 50%;
-        height: 80vh;
+        height: 150vh;
     }
 
     .hero .row {
         width: 100%;
     }
 }
+
+
 
 
