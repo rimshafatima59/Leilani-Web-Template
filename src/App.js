@@ -5,6 +5,7 @@ import './App.css'
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
+import Team from "./components/team/Team";
 // import Footer from "./components/common/footer/Footer";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/courses" exact component={CourseHome} />
+          <Route path="/team" exact component={Team} />
           
         </Switch>
         {/* <Footer /> */}
