@@ -51,7 +51,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="box">
-                    <h3> Recent Post</h3>
+                    {/* <h3> Recent Post</h3>
                     {blog.slice(0,3).map((val) =>(
                         
                         <div className="items flexSB">
@@ -71,7 +71,7 @@ const Footer = () => {
                             </div>
                         </div>
                     
-                    ))}
+                    ))} */}
                 </div>
                 <div className='box last'>
                     <h3>Have a Questions?</h3>
