@@ -84,7 +84,9 @@
     }
     .aboutHome .container {
         flex-direction: column-reverse;
+        /* margin-top: 90%; */
     }
+
 
     .aboutHome .row {
         width: 100%;
