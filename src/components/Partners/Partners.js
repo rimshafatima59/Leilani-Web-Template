@@ -4,16 +4,17 @@ import Card from "./PartnersCard"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import "./Partners.css"
 
 const Partners = () => {
     const settings = {
         className: "center",
         infinite: true,
-        centerPadding: "60px",
+        centerPadding: "100px",
         slidesToShow: 5,
         swipeToSlide: true,
         autoplay:true,
-        slidesToShow: 6,
+        slidesToShow: 6, 
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 1500,
@@ -30,6 +31,18 @@ const Partners = () => {
                 setting: {
                     slidesToShow: 3
                 }
+            },
+            {
+                breakpoint: 940,
+                setting: {
+                    slidesToShow: 6
+                }
+            },
+            {
+                breakpoint: 500,
+                setting: {
+                    slidesToShow: 4
+                }
             }],
         afterChange: function(index) {
           console.log(
@@ -42,17 +55,18 @@ const Partners = () => {
     <>
 
 <div>
-<div className='features-container'>
-          <div className='features-heading'>
-            <h4 className="features-heading-h4">Partners</h4>
-            <h1 className="features-heading-h1">What Partners Say</h1>
+<div className='partners-container'>
+          <div className='partnerss-heading'>
+            <h4 className="partners-heading-h4">Partners</h4>
+            <h1 className="partners-heading-h1">What Partners Say</h1>
           </div>
-          
+          <div className="slider partners-grid">
         <Slider {...settings}>
         {data.map((val, index) => {
               return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
             })}
         </Slider>
+        </div>
       </div>
       </div>
     </>
