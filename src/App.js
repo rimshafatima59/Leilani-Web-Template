@@ -6,7 +6,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/team/Team";
-// import Footer from "./components/common/footer/Footer";
+import Footer from "./components/common/footer/Footer";
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/team" exact component={Team} />
           
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   )
