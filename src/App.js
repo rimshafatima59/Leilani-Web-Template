@@ -11,6 +11,8 @@ import Features from "./components/Features/Features";
 // import Footer from "./components/common/footer/Footer";
 
 import Footer from "./components/common/footer/Footer";
+import Partners from "./components/Partners/Partners"
+
 
 
 const App = () => {
@@ -25,6 +27,7 @@ const App = () => {
           <Route path="/courses" exact component={CourseHome} />
           <Route path="/team" exact component={Team} />
           <Route path="/Features" exact component={Features} />
+          <Route path="/Partners" exact component={Partners} />
           
         </Switch>
         <Footer />
