@@ -55,6 +55,14 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
 }
+
+@media screen and (max-width: 580px) {
+  .features-grid {
+    background-color: lightgreen;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .features-p {
   color: #3c3e41;
 }

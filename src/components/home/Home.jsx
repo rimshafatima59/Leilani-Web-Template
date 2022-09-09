@@ -2,6 +2,8 @@ import React from 'react'
 import AboutCard from '../about/AboutCard'
 import HAbout from './hero/HAbout'
 import Hero from './hero/Hero'
+import Features from '../Features/Features'
+import Partners from '../Partners/Partners'
 
 
 const Home = () => {
@@ -10,6 +12,8 @@ const Home = () => {
         <Hero />
         <AboutCard />
         <HAbout />
+        <Features />
+        <Partners />
         {/* <Footer /> */}
     </>
   )
