@@ -22,9 +22,10 @@
 }
 
 .overlay i {
-    background-color: black;
+    background-color: #333;
     color: #fff;
     margin: 5px;
+    
 }
 
 .team .details {

@@ -6,8 +6,12 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/team/Team";
+
 import Features from "./components/Features/Features";
 // import Footer from "./components/common/footer/Footer";
+
+import Footer from "./components/common/footer/Footer";
+
 
 const App = () => {
   return (
@@ -23,7 +27,7 @@ const App = () => {
           <Route path="/Features" exact component={Features} />
           
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   )

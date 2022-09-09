@@ -10,6 +10,7 @@ const Home = () => {
         <Hero />
         <AboutCard />
         <HAbout />
+        {/* <Footer /> */}
     </>
   )
 }
