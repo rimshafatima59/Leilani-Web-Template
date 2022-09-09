@@ -41,7 +41,7 @@ export const awrapper = [
     title: "COURSES",
   },
 ]
-export const coursesCard = [
+export const coursesCard = [ 
   {
     id: 1,
     cover: "../images/courses/c1.png",

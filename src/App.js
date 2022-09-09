@@ -6,6 +6,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import CourseHome from "./components/allcourses/CourseHome";
 import Team from "./components/team/Team";
+import Features from "./components/Features/Features";
 // import Footer from "./components/common/footer/Footer";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/about" exact component={About} />
           <Route path="/courses" exact component={CourseHome} />
           <Route path="/team" exact component={Team} />
+          <Route path="/Features" exact component={Features} />
           
         </Switch>
         {/* <Footer /> */}
