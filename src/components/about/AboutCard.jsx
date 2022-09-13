@@ -8,6 +8,12 @@ const AboutCard = () => {
   return (
     <>
       <section className="aboutHome">
+      <div className='partners-container'>
+          <div className='partnerss-heading'>
+            <h4 className="partners-heading-h4">About us</h4>
+            <h1 className="partners-heading-h1">What We Are</h1>
+          </div>
+          </div>
         <div className="container flexSB">
           <div className="left row">
             <img src={require("../../../src/assets/images/about.webp")} alt = ""/>

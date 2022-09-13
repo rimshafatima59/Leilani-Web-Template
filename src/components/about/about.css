@@ -155,8 +155,8 @@
 
 
 
-  /* @media all and (max-width: 1400px) and (min-width: 300px) {
-    .right {
-     margin-top :500px;
+  /* @media all and (max-width: 1250px) and (min-width: 300px) {
+    section {
+     margin-top :110px;
     }
   } */
