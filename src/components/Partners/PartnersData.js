@@ -11,7 +11,7 @@ const data = [
     },
     {
       id: 3, 
-      image: require("../../assets/images/Partners/aT&T.png"),
+      image: require("../../assets/images/Partners/vivint.png"),
      
     },
     {
@@ -51,7 +51,7 @@ const data = [
       },
       {
         id: 11,
-        image: require("../../assets/images/Partners/liberty-power-logo.jpg"),
+        image: require("../../assets/images/Partners/texpo.jpg"),
         
       },
       {
@@ -61,17 +61,18 @@ const data = [
       },
       {
         id: 13,
-        image: require("../../assets/images/Partners/texpo.jpg"),
-        
-      },
-      {
-        id: 14,
         image: require("../../assets/images/Partners/tmobile.png"),
         
       },
       {
+        id: 14,
+        
+        image: require("../../assets/images/Partners/liberty-power-logo.jpg"),
+        
+      },
+      {
         id: 15,
-        image: require("../../assets/images/Partners/vivint.png"),
+        image: require("../../assets/images/Partners/aT&T.png"),
         
       },
       
