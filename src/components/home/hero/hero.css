@@ -40,6 +40,63 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .hero {
+      display: flex;
+    }
+    .hero  {
+      opacity: 1;
+    }
+    /* header .wrapper .article h1 span.arrow {
+      display:none;
+    } */
+  
+    .hero  {
+      max-height: 1000px
+    }
+  } 
+  
+  @media only screen and (min-width: 1024px) {
+  
+    .container header .wrapper {
+      text-align:left;
+      margin-left:5%;
+      width:480px;
+    }
+  
+    .hero  {
+      display:flex;
+    }
+  
+    .hero {
+      display:block;
+    }
+    .hero  {
+        max-height: 1010px;
+      }
+  
+    /* .container header .menu-icon {
+      display:none;
+    } */
+  
+    .hero {
+      display: block;
+    }
+  
+    /* section.dashboard .slick-list .slick-track {
+      display: flex;
+      min-width: 309px;
+      padding: 20px;
+    } */
+    
+   .hero {
+      display: flex;
+    }
+  
+   .hero{
+      opacity: 1;
+    }
+  } 
 
 
 

@@ -1,5 +1,6 @@
 .aboutHome {
     height: auto;
+    margin-top: 100px;
 }
 
 .aboutHome #heading {
@@ -17,9 +18,12 @@
     padding: 80px 50px;
 
 }
+.row {
+    margin-top: auto;
+}
 
 .aboutHome .items {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .aboutHome .item {
@@ -96,3 +100,63 @@
         height: 50vh;
     }
 }
+
+/* @media only screen and (min-width: 768px) {
+    .aboutHome {
+      display: flex;
+    }
+    /* .aboutHome   {
+      opacity: 1;
+    } */
+    /* header .wrapper .article h1 span.arrow {
+      display:none;
+    } */
+  
+ .right{
+      /* max-height: 1000px */
+      margin-top: 20px;
+      /* position: fixed; */
+    }
+  /* }  */
+  
+  /* @media only screen and (min-width: 1024px) {
+  
+    .aboutHome {
+      text-align:left;
+      margin-left:5%;
+      width:480px;
+    }
+  
+    .aboutHome  {
+      display:flex;
+    }
+  
+    .aboutHome {
+      display:block;
+    }
+    .aboutHome  {
+        max-height: 1500px;
+      }
+  
+    /* .container header .menu-icon {
+      display:none;
+    } */
+  
+   
+  
+    /* section.dashboard .slick-list .slick-track {
+      display: flex;
+      min-width: 309px;
+      padding: 20px;
+    } */
+    
+  /* } */
+
+
+
+
+  /* @media all and (max-width: 1400px) and (min-width: 300px) {
+    .right {
+     margin-top :500px;
+    }
+  } */
