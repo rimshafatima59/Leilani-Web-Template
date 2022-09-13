@@ -6,8 +6,8 @@ export const Head = () => {
         <section className = 'head'>
             <div className='container flexSB'>
                 <div className="logo">
-                    <h1>ACADEMIA</h1>
-                    <span>ONLINE EDUCATION & LEARNING</span>
+                    <h1>LEILANI INC.</h1>
+                    <span>TECHNOLOGY THAT & MATTERS!</span>
                 </div>
 
                 <div className="social">
