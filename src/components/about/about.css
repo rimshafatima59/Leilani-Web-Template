@@ -18,9 +18,7 @@
     padding: 80px 50px;
 
 }
-.row {
-    margin-top: auto;
-}
+
 
 .aboutHome .items {
     margin-top: 20px;
@@ -112,9 +110,9 @@
       display:none;
     } */
   
- .right{
+  Title  .right{
       /* max-height: 1000px */
-      margin-top: 20px;
+      margin-top: 500px;
       /* position: fixed; */
     }
   /* }  */
@@ -154,9 +152,9 @@
 
 
 
-
-  /* @media all and (max-width: 1250px) and (min-width: 300px) {
-    section {
+/* 
+  @media all and (max-width: 11250px) and (min-width: 300px) {
+    .row {
      margin-top :110px;
     }
   } */
