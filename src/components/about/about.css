@@ -1,8 +1,14 @@
+
 .aboutHome {
     height: auto;
     /* margin-top: 100px; */
 }
-
+.aboutHome .item h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
 .aboutHome #heading {
     text-align: left;
     padding: 0;
@@ -15,7 +21,7 @@
 }
 
 .aboutHome .right {
-    padding: 80px 50px;
+    padding: 60px 50px;
 
 }
 
@@ -26,8 +32,8 @@
 
 .aboutHome .item {
     background-color: #fff;
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: -20px;
+    padding: 80px;
     transition: 0.5s;
 }
 
@@ -79,6 +85,31 @@
 }
 
 
+/* -------------------------------------------max-width: 1300px Start---------------------------------- */
+
+@media screen and (max-width: 1600px) and (max-width: 620px)  {
+
+  .aboutHome .item {
+    background-color: #fff;
+    margin-top: -20px;
+    padding: 100px;
+    transition: 0.5s;
+}
+.aboutHome .item h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+}
+
+/* -------------------------------------------max-width: 1300px End---------------------------------- */
+
+
+
+/* -------------------------------------------max-width: 768px Start---------------------------------- */
+
+
 @media screen and (max-width: 768px) {
 
     .aboutHome {
@@ -98,6 +129,170 @@
         height: 50vh;
     }
 }
+
+/* -------------------------------------------max-width: 768px End---------------------------------- */
+
+@media screen and (max-width: 440px) {
+
+  .aboutHome {
+    margin-top: 221%;
+  }
+  .aboutHome .container {
+      flex-direction: column-reverse;
+      
+  }
+
+  .aboutHome .row {
+      width: 100%;
+  }
+
+  .awrapper {
+      height: 50vh;
+  }
+  .hero #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 135px;
+}
+.aboutHome .row {
+  width: 100%;
+  padding: 0;
+  font-size: 12px;
+  margin-top: 55px;
+}
+#heading h1 {
+  font-size: 33px;
+  margin: 23px -3px;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+}
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 5px;
+  transition: 0.5s;
+  margin-top: 76px;
+}
+.aboutHome .item h3 {
+  font-size: 15px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.hero #heading {
+  text-align: left;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 30px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+}
+
+/* -------------------------------------------max-width: 400px Start---------------------------------- */
+@media screen and (max-width: 400px) {
+
+  .aboutHome {
+    margin-top: 221%;
+  }
+  .aboutHome .container {
+      flex-direction: column-reverse;
+      
+  }
+
+  .aboutHome .row {
+      width: 100%;
+  }
+
+  .awrapper {
+      height: 50vh;
+  }
+  .hero #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 128px;
+}
+.aboutHome .row {
+  width: 100%;
+  padding: 0;
+  font-size: 12px;
+  margin-top: 55px;
+}
+#heading h1 {
+  font-size: 33px;
+  margin: 23px -3px;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+}
+.aboutHome .item {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 5px;
+  transition: 0.5s;
+  margin-top: 76px;
+}
+.aboutHome .item h3 {
+  font-size: 15px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.hero #heading {
+  text-align: left;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 30px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+}
+
+/* -------------------------------------------max-width: 400px End---------------------------------- */
+
+
+/* -------------------------------------------max-width: 367px Start---------------------------------- */
+
+@media screen and (max-width: 367px) {
+
+  .aboutHome {
+      margin-top: 240%;
+  }
+  .aboutHome .container {
+      flex-direction: column-reverse;
+      /* margin-top: 90%; */
+  }
+
+
+  .aboutHome .row {
+      width: 100%;
+  }
+
+  .awrapper {
+      height: 50vh;
+  }
+  .newletter h1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.newletter {
+  background-color: #1eb2a6;
+  padding: 34px 2px;
+  color: #fff;
+  margin-top: 50px;
+}
+}
+
+/* -------------------------------------------max-width: 367px End---------------------------------- */
+
 
 /* @media only screen and (min-width: 768px) {
     .aboutHome {

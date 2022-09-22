@@ -20,7 +20,7 @@ const AboutCard = () => {
           </div>
 
           <div className="right row">
-            <Title id = "title" subtitle="LEARN ANYTHING" title="Benefits About Online Learning Expertise" />
+            <Title id = "title"  title="Benefits About Online Learning Expertise" />
             <div className="items">{homeAbout.map((val) => (
               <div className="item flexSB">
                 <div className="img">
@@ -28,7 +28,7 @@ const AboutCard = () => {
                 </div>
                 <div className="text">
                   <h2>{val.title}</h2>
-                  <h2>{val.desc}</h2>
+                  <h3>{val.desc}</h3>
                 </div>
               </div>
             ))}</div>

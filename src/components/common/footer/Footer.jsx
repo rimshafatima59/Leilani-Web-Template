@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
         <section className="newletter">
-            <div className="container flexSB">
+            <div className="container flexSBnewletter">
                 <div className="left row">
                     <h1>Newsletter - stay tune and get the latest update</h1>
                     <span>far far away, behing the word mountains</span>
